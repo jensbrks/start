@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <style>
+            html, body {
+                height: 100%;
+            }
+
+            body, main, section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            body, h1 {
+                margin: 0;
+            }
+
+            main {
+                align-items: flex-start;
+                gap: 2em;
+            }
+
+            section {
+                flex-flow: column nowrap;
+            }
+
+            ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            li + li {
+                margin-top: 0.2em;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>private</h1>
+                <ul>
+                    <li><a href="https://mail.protonmail.com/inbox">email</a></li>
+                    <li><a href="https://reddit.com">reddit</a></li>
+                    <li><a href="https://netflix.com/login">netflix</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h1>school</h1>
+                <ul>
+                    <li><a href="https://onderwijsonline.han.nl">books</a></li>
+                    <li><a href="https://isas.han.nl">portal</a></li>
+                    <li><a href="https://hanaccount.han.nl/hanmail">email</a></li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
